@@ -1,40 +1,64 @@
 # Slides from presentation
 
-![](images/Slide01.png)
-![](images/Slide02.png)
-![](images/Slide03.png)
-![](images/Slide04.png)
-![](images/Slide05.png)
-![](images/Slide06.png)
-![](images/Slide07.png)
-![](images/Slide08.png)
-![](images/Slide09.png)
-![](images/Slide10.png)
-![](images/Slide11.png)
-![](images/Slide12.png)
-![](images/Slide13.png)
-![](images/Slide14.png)
-![](images/Slide15.png)
-![](images/Slide16.png)
-![](images/Slide17.png)
-![](images/Slide18.png)
-![](images/Slide19.png)
-![](images/Slide20.png)
-![](images/Slide21.png)
-![](images/Slide22.png)
-![](images/Slide23.png)
-![](images/Slide24.png)
-![](images/Slide25.png)
-![](images/Slide26.png)
-![](images/Slide27.png)
-![](images/Slide28.png)
-![](images/Slide29.png)
-![](images/Slide30.png)
-![](images/Slide31.png)
-![](images/Slide32.png)
-![](images/Slide33.png)
-![](images/Slide34.png)
-![](images/Slide35.png)
-![](images/Slide36.png)
-![](images/Slide37.png)
-![](images/Slide38.png)
+![(Un)forgotten XSLT](images/Slide01.png)
+
+## About me
+
+![About me](images/Slide02.png)
+
+## Agenda
+
+![Agenda](images/Slide03.png)
+
+## Key informations
+
+![XSLT – key information](images/Slide04.png)
+![XSLT – basic data flow](images/Slide05.png)
+![XSLT – advanced data flow](images/Slide06.png)
+![Note](images/Slide07.png)
+
+## XLSL file structure
+
+![XSLT file structure (1/6)](images/Slide08.png)
+![XSLT file structure (2/6)](images/Slide09.png)
+![XSLT file structure (3/6)](images/Slide10.png)
+![XSLT file structure (4/6)](images/Slide11.png)
+![XSLT file structure (5/6)](images/Slide12.png)
+![XSLT file structure (6/6)](images/Slide13.png)
+
+![XPath to query - basics](images/Slide14.png)
+![Demo 1](images/Slide15.png)
+![XSLT only demo Components](images/Slide16.png)
+![Identity XSLT](images/Slide17.png)
+![Sample XML](images/Slide18.png)
+![Demo - 2](images/Slide19.png)
+![Demo - 3](images/Slide20.png)
+![Demo - 4](images/Slide21.png)
+![Demo - 5](images/Slide22.png)
+![Demo - 6](images/Slide23.png)
+![Demo - 7](images/Slide24.png)
+![Demo - 8](images/Slide25.png)
+![Demo - 9](images/Slide26.png)
+![Demo - 10 - xml parameter (1/3)](images/Slide27.png)
+![Demo - 10 - xml parameter (2/3)](images/Slide28.png)
+![Demo - 10 - xml parameter (3/3)](images/Slide29.png)
+![Demo - 11 - custom namespace (C# sample)](images/Slide30.png)
+![Demo - 11 C# (1/2)](images/Slide31.png)
+![Demo - 11 C# (2/2)](images/Slide32.png)
+
+# Demo 12
+
+![Demo - 12](images/Slide33.png)
+[XSLT Parameters](https://docs.microsoft.com/en-us/dotnet/standard/data/xml/xslt-parameters)
+
+![Extra clues](images/Slide34.png)
+![Summary](images/Slide35.png)
+![References](images/Slide36.png)
+
+[XslCompiledTransform Class](https://docs.microsoft.com/en-us/dotnet/api/system.xml.xsl.xslcompiledtransform)
+[XSLT Functions](https://msdn.microsoft.com/en-us/library/ms256046.aspx)
+[XSLT Parameters](https://docs.microsoft.com/en-us/dotnet/standard/data/xml/xslt-parameters)
+[Sources and slides on GitHub](https://github.com/MariuszKrzanowski/demo-unforgotten-xslt)
+
+![References](images/Slide37.png)
+![Thank you](images/Slide38.png)
