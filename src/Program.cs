@@ -33,18 +33,18 @@ namespace MrMatrixNet.UnforgottenXSLT.SamplesRunner
     {
         static DemoSetup[] demoOptions = new DemoSetup[]
                {
-                    new DemoSetup("Demo-1","01.xslt","article.xml","result-1.xml")
-                    ,new DemoSetup("Demo-2","02.xslt","article.xml","result-2.xml")
-                    ,new DemoSetup("Demo-3","03.xslt","article.xml","result-3.xml")
-                    ,new DemoSetup("Demo-4","04.xslt","article.xml","result-4.xml")
-                    ,new DemoSetup("Demo-5","05.xslt","article.xml","result-5.xml")
-                    ,new DemoSetup("Demo-6","06.xslt","article.xml","result-6.xml")
-                    ,new DemoSetup("Demo-7","07.xslt","article.xml","result-7.xml")
-                    ,new DemoSetup("Demo-8","08.xslt","article.xml","result-8.xml")
-                    ,new DemoSetup("Demo-9","09.xslt","article.xml","result-9.xml")
-                    ,new DemoSetup("Demo-10","10.xslt","article.xml","result-10.xml")
-                    ,new DemoSetup("Demo-11","11.xslt","template.html","result-11.html")
-                    ,new DemoSetup("Demo-12","12.xslt","template.html","result-12.html")
+                    new DemoSetup(Resources.Demo01,"01.xslt","article.xml","result-1.xml")
+                    ,new DemoSetup(Resources.Demo02,"02.xslt","article.xml","result-2.xml")
+                    ,new DemoSetup(Resources.Demo03,"03.xslt","article.xml","result-3.xml")
+                    ,new DemoSetup(Resources.Demo04,"04.xslt","article.xml","result-4.xml")
+                    ,new DemoSetup(Resources.Demo05,"05.xslt","article.xml","result-5.xml")
+                    ,new DemoSetup(Resources.Demo06,"06.xslt","article.xml","result-6.xml")
+                    ,new DemoSetup(Resources.Demo07,"07.xslt","article.xml","result-7.xml")
+                    ,new DemoSetup(Resources.Demo08,"08.xslt","article.xml","result-8.xml")
+                    ,new DemoSetup(Resources.Demo09,"09.xslt","article.xml","result-9.xml")
+                    ,new DemoSetup(Resources.Demo10,"10.xslt","article.xml","result-10.xml")
+                    ,new DemoSetup(Resources.Demo11,"11.xslt","template.html","result-11.html")
+                    ,new DemoSetup(Resources.Demo12,"12.xslt","template.html","result-12.html")
                };
 
         static void Main(string[] args)
