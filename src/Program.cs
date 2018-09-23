@@ -24,6 +24,7 @@
 //
 //-----------------------------------------------------------------------
 
+using MrMatrixNet.UnforgottenXSLT.SamplesRunner.Properties;
 using System;
 
 namespace MrMatrixNet.UnforgottenXSLT.SamplesRunner
@@ -49,17 +50,34 @@ namespace MrMatrixNet.UnforgottenXSLT.SamplesRunner
 
         static void Main(string[] args)
         {
+            DemoSetup choosenOption = DemoOptionSelector();
+            TransformExecution(choosenOption);
+            // AllTransformsTest();
+            
+            Console.WriteLine("Press ENTER to end program.");
+            Console.ReadLine();
+        }
+
+        private static void AllTransformsTest()
+        {
+            foreach (DemoSetup choosenOption in demoOptions)
+            {
+                TransformExecution(choosenOption);
+            }
+
+        }
+
+        private static DemoSetup DemoOptionSelector()
+        {
             string line;
             int chosenOptionIndex;
-            while(true)
+            while (true)
             {
                 Console.WriteLine("Choose an numeric option to run and press ENTER:");
                 for (int i = 0; i < demoOptions.Length; i++)
                 {
                     Console.WriteLine($"{i}\t{demoOptions[i].Title}");
                 }
-                
-
 
                 line = Console.ReadLine();
                 if ((!int.TryParse(line, out chosenOptionIndex) || chosenOptionIndex < 0 || chosenOptionIndex >= demoOptions.Length))
@@ -73,17 +91,18 @@ namespace MrMatrixNet.UnforgottenXSLT.SamplesRunner
                 }
             }
 
+            var choosenOption = demoOptions[chosenOptionIndex];
+            return choosenOption;
+        }
 
+        private static void TransformExecution(DemoSetup choosenOption)
+        {
+            Console.WriteLine($"TransformExecution of  {choosenOption.Title} Start.");
+            var demoTransform = new DemoTransform($"demo-transformations\\{choosenOption.TransformationPath}");
+            demoTransform.Execute($"content\\{choosenOption.SourcePath}", choosenOption.DestinationPath);
+            Console.WriteLine($"Result created in:{choosenOption.DestinationPath}");
+            Console.WriteLine($"TransformExecution of  {choosenOption.Title} End.");
 
-           var choosenOption = demoOptions[chosenOptionIndex];
-           var demoTransform = new DemoTransform($"demo-transformations\\{choosenOption.TransformationPath}");
-
-
-           demoTransform.Execute($"content\\{choosenOption.SourcePath}", choosenOption.DestinationPath);
-
-
-            Console.WriteLine("Press ENTER to end program.");
-            Console.ReadLine();
         }
     }
 }
