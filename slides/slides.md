@@ -100,3 +100,10 @@
 * [Sources and slides on GitHub](https://github.com/MariuszKrzanowski/demo-unforgotten-xslt) https://github.com/MariuszKrzanowski/demo-unforgotten-xslt
 
 ![Thank you](images/Slide37.png)
+
+## Debugger options
+
+Switch on/off these options to allow VS Debugger stop on break points in your XSLT file while C# program execution.
+
+![Use Managed Compatibility Mode](images/vs-debug-seetings-1.png)
+![Enable Just My Code](images/vs-debug-seetings-2.png)
